@@ -1,0 +1,242 @@
+
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>网站首页</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	  <!-- 博客界面导航条 -->
+	  
+    <nav class="navbar">
+      <div class="container-fluid navbar-inverse navbar-fixed-top">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">农业</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">网站首页 <span class="sr-only">(current)</span></a></li>
+            <li><a href="history.html">农村历史</a></li>
+		    <li><a href="place.html">农村文化</a></li>
+			
+			<li><a href="culture.html">农耕节气</a></li>
+			
+			<li><a href="honor.html">农村改革</a></li>
+          </ul>
+          <!-- <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="您想搜索的内容">
+            </div>
+            <button type="submit" class="btn btn-default">搜索</button>
+          </form> -->
+		  <form class="navbar-form navbar-right">
+		    <div class="input-group">
+		      <input type="text" class="form-control" placeholder="搜索">
+		       <span class="input-group-btn"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button></span>
+		    </div>
+		   
+		  </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">登录注册 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="login.html">登录</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="register.html">注册</a></li>
+              </ul>
+			   <li><a href="contact.html">在线留言</a></li>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+	
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+	
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img src="img/农业1.jpg" width="100%" alt="...">
+	      <div class="carousel-caption">
+	        
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="img/农业2.jpg" width="100%" alt="...">
+	      <div class="carousel-caption">
+	        
+	      </div>
+	    </div>
+		<div class="item">
+		  <img src="img/农业3.jpg" width="100%" alt="...">
+		  <div class="carousel-caption">
+		    
+		  </div>
+		</div>
+	  </div>
+	
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	
+	
+	<div class="container">
+		<div class="row beijing">
+			<div class="beijing-title">
+				<h2>了解农村</h2>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-default">
+				  <div class="panel-body">
+					<audio src="video/北京欢迎你.mp3" controls="controls">
+						
+					</audio>
+					<video src="video/sp.mp4" controls="controls" width="320px" height="214px">
+					</video>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="panel panel-default">
+				  <div class="panel-body">
+				    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 农村是一个相对于“城市”或“城镇”而言的地域概念，主要指的是从事农业生产为主的人聚居的地方。它是相对于城市的称谓，指农业区，有集镇、村落，以农业产业（自然经济和第一产业）为主，包括各种农场（包括畜牧和水产养殖场）、林场（林业生产区）、园艺和蔬菜生产等。农村与城市的区别主要在于经济活动的类型、人口密度、基础设施等方面。农村经济活动以农业为主，人口密度通常较低，基础设施相对较为简单，如交通、通讯、教育、医疗等可能不如城市发达。然而，随着现代化和城市化的发展，许多农村地区也在逐步改善其基础设施和经济发展水平。此外，农村也是许多文化、传统和习俗的发源地，拥有独特的自然风光和人文景观，对于保护和传承文化遗产、推动乡村旅游等方面具有重要意义。</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;早期农村的生活环境相对封闭和自给自足。村庄通常是由家族或血缘关系紧密的人群组成，农业生产是早期农村的核心活动。农民们依靠手工工具和简单的农具，如犁、耙、镰刀等，进行耕作、播种、收割等农业生产活动。他们根据季节的变化和气候的影响，合理安排农作物的种植和收割时间，以确保粮食的丰收。同时，农民们还会饲养家畜家禽，提供肉类和蛋类等食品，以满足家庭的需求。此外，早期农村的生活节奏相对较慢，人们的生活方式也较为简单。村民们通常过着日出而作、日落而息的生活，他们注重家庭和亲情，邻里之间也保持着紧密的联系。在农闲时节，村民们会组织各种庆祝活动，如庙会、舞龙舞狮等，以祈求来年的丰收和家人的平安。这些活动不仅丰富了村民的精神文化生活，也传承了中华民族的优秀传统文化。</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+					<div class=" content-top">
+							<div class="col-md-4 top-grid">
+								<h5>菜园</h5>
+								<img class="img-responsive" src="img/菜园.jpg" alt="菜园">
+								
+								<p>菜园是指专门用于种植各种蔬菜的园地。它通常被划分为多个小区块，每个区块种植不同的蔬菜，如青菜、萝卜、番茄等。菜园不仅提供新鲜的食材，还为人们提供了接触自然、了解植物生长过程的乐趣。通过精心管理和维护，菜园能够持续产出优质的蔬菜，满足人们的饮食需求。</p>
+							</div>
+							<div class="col-md-4 top-grid">
+								<h5>农田</h5>
+								<img class="img-responsive" src="img/农田.jpg" alt="农田">
+								
+								<p>农田是农业生产的重要基础，指用于种植农作物并经常进行耕种、能够正常收获的土地。它承载着粮食安全和农业可持续发展的重任。农田经过合理规划和科学管理，能够有效提高农作物的产量和质量，满足人们日益增长的食品需求。同时，农田也是生态系统的重要组成部分，对维护生态平衡、保护生态环境具有重要意义</p>
+							</div>
+							<div class="col-md-4 top-grid">
+								<h5>房屋</h5>
+	                            <img class="img-responsive" src="img/房屋.jpg"  alt="房屋">
+								
+								<p>农村房屋通常具有独特的外观和风格，一般是挨家挨户各有一个院子，篱笆围起来井水不犯河水，它们往往采用传统的坡屋顶设计，墙体多为砖瓦或土坯材质，色调自然朴实。房屋周围可能环绕着菜地、果园和绿树，形成一幅宁静的田园风光。这些房屋不仅是农村居民的居住空间，更是乡村文化和传统的载体。</p>
+							</div>		
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+	
+	<div class="container play">
+		<div class="row">
+			<div class="col-md-7">
+				<div class="play-title">
+					<h3>农村景色</h3>
+					<div class="col-md-4">
+						<img src="img/11.jpg" >
+						<h4>房屋</h4>
+					</div>
+					<div class="col-md-4">
+						<img src="img/22.jpg" height="333px" >
+						<h4>傍晚</h4>
+					</div>
+					<div class="col-md-4">
+						<img src="img/33.jpg" >
+						<h4>景色</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="play-title">
+					<h3>农耕景象</h3>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<img src="img/4.jpg" >
+						<p>水稻</p>
+						<img src="img/5.jpg" >
+						<p>种水稻</p>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<img src="img/6.jpg" >
+						<p>耕地</p>
+						<img src="img/7.jpg" >
+						<p>耕地</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!--footer-starts-->
+		<div class="footer">
+			<div class="container">
+					    <form class="form-inline">
+					        <div class="form-group">
+								<div class="col-md-4 col-sm-6 col-xs-12">
+									<label for="class">班级：</label>
+					            <input type="text" class="form-control" id="class" placeholder="可填自己的班级">
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+									<label for="name">姓名：</label>
+								<input type="text" class="form-control" id="name" placeholder="可填自己的姓名">
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+									<label for="number">学号：</label>
+								<input type="text" class="form-control" id="number" placeholder="可填自己的学号">
+								</div>		
+					        </div>
+						</form>	
+				<div class="copy-rights">
+					<p> &copy; 赵彤20220000577</p>
+				</div>
+			</div>
+		</div> 
+	<!---->
+	
+	
+    <!-- 引入js文件 -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
